@@ -1,0 +1,14 @@
+# Code owners for sample-ai-dev-enablement
+#
+# Files under skills/ are instructions that a reader's AI agent executes on their
+# own machine. A change there reaches every reader, so it always needs a review
+# from an owner who did not write it. Mitigation M-002 in the threat model.
+#
+# Both owners are listed on every path so an author's own change still needs a
+# second owner's approval. Branch protection must have "Require review from Code
+# Owners" enabled, or these lines are advisory only.
+
+*           @486 @jwoehrle
+
+/skills/    @486 @jwoehrle
+/docs/      @486 @jwoehrle
